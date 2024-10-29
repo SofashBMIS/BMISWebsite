@@ -50,6 +50,13 @@
             font-size: 1em;
             cursor: pointer;
         }
+        .emoji-link {
+            font-size: 5em; /* Large emoji size */
+            text-decoration: none; /* Remove underline from link */
+            display: block; /* Make the link a block element */
+            margin: 20px 0; /* Add some spacing */
+            color: inherit; /* Inherit color from parent */
+        }
     </style>
 </head>
 <body>
@@ -68,6 +75,9 @@
 
     <div id="result"></div>
     <button id="reset" onclick="resetWheel()">Reset Wheel</button>
+
+    <a href="index.html" class="emoji-link">🐀</a> <!-- Large rat emoji link -->
+    <a href="boredom-cured.html" class="emoji-link">💃</a> <!-- Large dancing girl emoji link -->
 
     <script>
         const activities = [
