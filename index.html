@@ -20,11 +20,22 @@
             font-size: 1.2em;
             margin: 20px 0;
         }
+        .link {
+            font-size: 5em; /* Make the emoji large */
+            text-decoration: none; /* Remove underline from link */
+            color: inherit; /* Inherit color from parent */
+            transition: transform 0.3s; /* Add a hover effect */
+        }
+        .link:hover {
+            transform: scale(1.1); /* Slightly increase size on hover */
+        }
     </style>
 </head>
 <body>
     <h1>Hello User! Welcome to Sofia Asher's Website!</h1>
-    <p>If you're ever trying to decide what to do with your day, come here. The next page will have a spinning wheel to decide between some fun activities. For when you're feeling indecisive.</p>
+    <p>If you're ever trying to decide what to do with your day, come here. The next page will have a spinning wheel to decide between some fun activities. For when you're feeling indecisive. Click on the relaxing tree to get to the cure.</p>
     <p>😉</p>
+    <a href="spin-the-wheel.html" class="link">🌴</a> <!-- Palm tree link -->
 </body>
 </html>
+
